@@ -1,0 +1,12 @@
+: cascade "include/layout.tx"
+
+: override content -> {
+
+<h2><: $latest_text :></h2>
+
+<form method="post" action="<: uri_for('memo/insert') :>">
+  <textarea name="text" rows="3"></textarea>
+  <input type="submit" value="Submit">
+</form>
+
+: }

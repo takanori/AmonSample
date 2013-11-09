@@ -1,0 +1,3 @@
+name="AmonSample"
+[build]
+build_class = "builder::MyBuilder"
